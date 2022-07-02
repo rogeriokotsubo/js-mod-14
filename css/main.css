@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url(../assets/fonts/pala-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root{
+  --color-blue: #000769;
+  --color-orange: #fc9823;
+  --color-white: #ffffff;
+  --color-brown: #292325;
+  --color-pink: #f7e9e4;
+  --font-oswald: Oswald, Arial, Helvetica, sans-serif;
+  --font-raleway: Raleway, Arial, Helvetica, sans-serif;
+  --font-palatino: Palatino Linotype, Arial, Helvetica, sans-serif;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* cursor: inherit; */
+}
+
+body {
+  background-color: var(--color-white);
+}
+main {
+  font-size: 1.5rem;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 5vh;
+}
+#container-main{
+  height: 70vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;  
+  padding-top: 25vh;
+}
+.h1-title{
+  width: 100%;
+  text-align: center;
+  font-family: 'Palatino Linotype', Arial;
+  letter-spacing: 0.3vw;
+  color: var(--color-brown);
+  font-size: 1.1vw;
+  font-weight: 200;
+  white-space: nowrap;
+}
+#ctn-main{
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-image{
+  width: 28vw;
+  min-width: 150px;
+  height: 70vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+.main-image-prod{
+  width: 48vw;
+  min-width: 150px;
+  height: 70vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+#ctn-main-txt{
+  background-color: var(--color-pink); 
+  color: var(--color-brown);
+  font-family: var(--font-raleway);
+  width: 28vw;
+  height: 70vh;
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 5vh;;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#ctn-btn{
+  padding-top: 8vh;
+}
+#btn-online{
+  text-decoration: none;
+}
+#divlink{
+  font-family: var(--font-raleway);
+  background-color: var(--color-white);
+  width: 11vw;
+  height: 6vh;
+  color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border: none;
+}
+#divlink:hover{
+  border: solid 1px var(--color-brown);
+
+}
+

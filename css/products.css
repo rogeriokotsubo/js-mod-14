@@ -1,0 +1,292 @@
+
+/* Lia and donuts container  */
+.ctn-cakes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120vh;
+  background-color: transparent;
+  padding-top: 10vh;
+}
+.ctn-cake-bar{
+  background-image: url(../assets/img/fundo1.png);
+  /* background-size: contain; */
+  width: 90vw;
+  height: 120px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctn-cake-bar p{
+  color: var(--color-brown);
+  font-family: var(--font-raleway);
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.1vw;
+}
+
+#ctn-img-cakes{
+  width: 90vw;
+  height: 55vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+#ctn-img-cakes{
+  width: 90vw;
+  height: 55vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+.cakes-image1 {
+  width: 44vw;
+  height: 50vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/img/lia.webp");
+}
+/* Conheça a Lia */
+#btn-lia{
+  text-decoration: none;
+}
+#ctn-btn-lia{
+  padding: 0 3vw 5vh 0;
+}
+#divlink-lia{
+  font-family: var(--font-raleway);
+  color: var(--color-brown);
+  width: 8vw;
+  height: 4vh;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-weight: 800;
+  border: none;
+}
+#divlink-lia:hover{
+  border: solid 1px var(--color-brown);
+}
+
+/* Donnuts img */
+.cakes-image2{
+  width: 44vw;
+  height: 50vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/img/donnuts.webp");
+}
+#btn-contact{
+  text-decoration: none;
+}
+#ctn-btn-contact{
+  padding: 0 3vw 5vh 0;
+}
+#divlink-contact{
+  font-family: var(--font-raleway);
+  color: var(--color-brown);
+  width: 8vw;
+  height: 4vh;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  font-weight: 800;
+  border: none;
+}
+#divlink-contact:hover{
+  border: solid 1px var(--color-brown);
+}
+
+/* Cakes - Carrossel  */
+.ctn-images-cakes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background-color: transparent;
+  padding-top: 1vh;
+}
+.ctn-images-cakes-prod{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background-color: transparent;
+  padding-top: 40vh;
+}
+.txt-instagram {
+  color: var(--color-brown);
+  font-family: var(--font-raleway);
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.8vw;
+}
+#ctn-images{
+  width: 90vw;
+  height: 28vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5vh;
+}
+.image1{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/01.jpg);
+  background-size: cover;
+}
+.image2{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/02.jpg);
+  background-size: cover;
+}
+.image3{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/03.jpg);
+  background-size: cover;
+}
+.image4{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/10.jpg);
+  background-size: cover;
+}
+.image5{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/09.jpg);
+  background-size: cover;
+}
+.image6{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/06.jpg);
+  background-size: cover;
+}
+.image7{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/11.jpg);
+  background-size: cover;
+}
+.image8{
+  width: 11vw;
+  height: 17vh;
+  overflow: hidden;
+  background-image: url(../assets/img/08.jpg);
+  background-size: cover;
+}
+.txt-hover1, .txt-hover2, .txt-hover3, .txt-hover4,
+ .txt-hover5, .txt-hover6, .txt-hover7, .txt-hover8{
+  width: 11vw;
+  height: 17vh;
+  background-color: #29232580;
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+  font-size: 1.3vw;
+  text-align: center;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.image1:hover .txt-hover1, .image2:hover .txt-hover2,
+.image3:hover .txt-hover3, .image4:hover .txt-hover4,
+.image5:hover .txt-hover5, .image6:hover .txt-hover6,
+.image7:hover .txt-hover7, .image8:hover .txt-hover8{
+  visibility: visible;
+  opacity: 1;
+} 
+ /* email  */
+.ctn-email{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background-color: transparent;
+  padding-top: 20vh;
+  gap: 2vh
+}
+.txt-sign {
+  color: var(--color-brown);
+  font-family: var(--font-raleway);
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.input-email{
+  font-family: var(--font-raleway);
+  background-color: #e6fbff;
+  font-weight: 600;
+  width: 25vw;
+  height: 8vh;
+  color: var(--color-brown);
+  font-size: 1.2vw;
+  padding: 1vh 1vw;
+  border: solid 1px var(--color-brown);
+}
+.input-email::placeholder{
+  color: var(--color-brown);
+  background-color: var(--color-white);	
+  font-size: 1vw;
+  font-family: var(--font-raleway);
+}
+.input-email:invalid{
+  color: var(--color-brown);
+  background-color: var(--color-white);	
+  font-size: 1vw;
+  font-family: var(--font-raleway);
+  border-color: #f00;
+}
+#btn-sign{
+  text-decoration: none;
+}
+#divlink-sign{
+  font-family: var(--font-raleway);
+  background-color: var(--color-brown);
+  width: 25vw;
+  height: 5vh;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  border: none;
+}
+#divlink-sign:hover{
+  background-color: var(--color-pink);
+  color: var(--color-brown);
+}
