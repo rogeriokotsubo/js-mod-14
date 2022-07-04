@@ -1,12 +1,12 @@
 export function changeProductsCandy(){
-  document.querySelector('.image1').style.backgroundImage = 'url(./js-mod-14/assets/img/02.jpg)';
-  document.querySelector('.image2').style.backgroundImage = 'url(./js-mod-14/assets/img/05.jpg)';
-  document.querySelector('.image3').style.backgroundImage = 'url(./js-mod-14/assets/img/03.jpg)';
-  document.querySelector('.image4').style.backgroundImage = 'url(./js-mod-14/assets/img/09.jpg)';
-  document.querySelector('.image5').style.backgroundImage = 'url(./js-mod-14/assets/img/05.jpg)';
-  document.querySelector('.image6').style.backgroundImage = 'url(./js-mod-14/assets/img/03.jpg)';
-  document.querySelector('.image7').style.backgroundImage = 'url(./js-mod-14/assets/img/09.jpg)';
-  document.querySelector('.image8').style.backgroundImage = 'url(./js-mod-14/assets/img/05.jpg)';
+  document.querySelector('.image1').style.backgroundImage = 'url(./assets/img/02.jpg)';
+  document.querySelector('.image2').style.backgroundImage = 'url(./assets/img/05.jpg)';
+  document.querySelector('.image3').style.backgroundImage = 'url(./assets/img/03.jpg)';
+  document.querySelector('.image4').style.backgroundImage = 'url(./assets/img/09.jpg)';
+  document.querySelector('.image5').style.backgroundImage = 'url(./assets/img/05.jpg)';
+  document.querySelector('.image6').style.backgroundImage = 'url(./assets/img/03.jpg)';
+  document.querySelector('.image7').style.backgroundImage = 'url(./assets/img/09.jpg)';
+  document.querySelector('.image8').style.backgroundImage = 'url(./assets/img/05.jpg)';
 }
 
 
@@ -17,7 +17,7 @@ export function goCandy(){
     DOCES.
   </h1>
   <div id="ctn-main"> 
-    <img class="main-image-prod" src="./js-mod-14/assets/img/09.jpg">
+    <img class="main-image-prod" src="./assets/img/09.jpg">
   </div>  
 </section>
 

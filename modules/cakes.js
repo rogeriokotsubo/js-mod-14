@@ -1,12 +1,12 @@
 export function changeProductsCakes(){
-  document.querySelector('.image1').style.backgroundImage = 'url(./js-mod-14/assets/img/01.jpg)';
-  document.querySelector('.image2').style.backgroundImage = 'url(./js-mod-14/assets/img/04.jpg)';
-  document.querySelector('.image3').style.backgroundImage = 'url(./js-mod-14/assets/img/05.jpg)';
-  document.querySelector('.image4').style.backgroundImage = 'url(./js-mod-14/assets/img/06.jpg)';
-  document.querySelector('.image5').style.backgroundImage = 'url(./js-mod-14/assets/img/07.jpg)';
-  document.querySelector('.image6').style.backgroundImage = 'url(./js-mod-14/assets/img/08.jpg)';
-  document.querySelector('.image7').style.backgroundImage = 'url(./js-mod-14/assets/img/01.jpg)';
-  document.querySelector('.image8').style.backgroundImage = 'url(./js-mod-14/assets/img/04.jpg)';
+  document.querySelector('.image1').style.backgroundImage = 'url(./assets/img/01.jpg)';
+  document.querySelector('.image2').style.backgroundImage = 'url(./assets/img/04.jpg)';
+  document.querySelector('.image3').style.backgroundImage = 'url(./assets/img/05.jpg)';
+  document.querySelector('.image4').style.backgroundImage = 'url(./assets/img/06.jpg)';
+  document.querySelector('.image5').style.backgroundImage = 'url(./assets/img/07.jpg)';
+  document.querySelector('.image6').style.backgroundImage = 'url(./assets/img/08.jpg)';
+  document.querySelector('.image7').style.backgroundImage = 'url(./assets/img/01.jpg)';
+  document.querySelector('.image8').style.backgroundImage = 'url(./assets/img/04.jpg)';
 }
 
 export function goCakes(){
@@ -16,7 +16,7 @@ export function goCakes(){
     BOLOS.
   </h1>
   <div id="ctn-main"> 
-    <img class="main-image-prod" src="./js-mod-14/assets/img/08.jpg">
+    <img class="main-image-prod" src="./assets/img/08.jpg">
   </div>  
 </section>
 
