@@ -1,7 +1,7 @@
-import { goCakes, changeProductsCakes } from './js-mod-14/modules/cakes.js';
-import { goCupCakes, changeProductsCupCakes } from './js-mod-14/modules/cupcakes.js';
-import { goCandy, changeProductsCandy } from './js-mod-14/modules/candy.js';
-import { goHome,changeProductsHome } from './js-mod-14/modules/home.js';
+import { goCakes, changeProductsCakes } from './modules/cakes.js';
+import { goCupCakes, changeProductsCupCakes } from './modules/cupcakes.js';
+import { goCandy, changeProductsCandy } from './modules/candy.js';
+import { goHome,changeProductsHome } from './modules/home.js';
 
 // Navbar lateral
 let navLinks = document.querySelector(".nav-links");
