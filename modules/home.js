@@ -1,12 +1,12 @@
 export function changeProductsHome(){
-  document.querySelector('.image1').style.backgroundImage = 'url(../assets/img/01.jpg)';
-  document.querySelector('.image2').style.backgroundImage = 'url(../assets/img/02.jpg)';
-  document.querySelector('.image3').style.backgroundImage = 'url(../assets/img/03.jpg)';
-  document.querySelector('.image4').style.backgroundImage = 'url(../assets/img/10.jpg)';
-  document.querySelector('.image5').style.backgroundImage = 'url(../assets/img/09.jpg)';
-  document.querySelector('.image6').style.backgroundImage = 'url(../assets/img/06.jpg)';
-  document.querySelector('.image7').style.backgroundImage = 'url(../assets/img/11.jpg)';
-  document.querySelector('.image8').style.backgroundImage = 'url(../assets/img/08.jpg)';
+  document.querySelector('.image1').style.backgroundImage = 'url(./assets/img/01.jpg)';
+  document.querySelector('.image2').style.backgroundImage = 'url(./assets/img/02.jpg)';
+  document.querySelector('.image3').style.backgroundImage = 'url(./assets/img/03.jpg)';
+  document.querySelector('.image4').style.backgroundImage = 'url(./assets/img/10.jpg)';
+  document.querySelector('.image5').style.backgroundImage = 'url(./assets/img/09.jpg)';
+  document.querySelector('.image6').style.backgroundImage = 'url(./assets/img/06.jpg)';
+  document.querySelector('.image7').style.backgroundImage = 'url(./assets/img/11.jpg)';
+  document.querySelector('.image8').style.backgroundImage = 'url(./assets/img/08.jpg)';
 }
 
 
@@ -18,7 +18,7 @@ return `
   BOLOS DA RAFAELA.
 </h1>
 <div id="ctn-main"> 
-  <img class="main-image" src="../assets/img/imagem1.webp">
+  <img class="main-image" src="./assets/img/imagem1.webp">
   <div id="ctn-main-txt"> 
     <p>Bolos Especiais</p>
     <p>para Casamentos</p>
@@ -31,7 +31,7 @@ return `
       </a>  
     </div>   
   </div>
-  <img class="main-image" src="../assets/img/imagem2.webp">
+  <img class="main-image" src="./assets/img/imagem2.webp">
 </div>  
 </section>
 

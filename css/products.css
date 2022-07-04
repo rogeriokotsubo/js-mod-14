@@ -11,7 +11,7 @@
   padding-top: 10vh;
 }
 .ctn-cake-bar{
-  background-image: url(../assets/img/fundo1.png);
+  background-image: url(./assets/img/fundo1.png);
   /* background-size: contain; */
   width: 90vw;
   height: 120px;
@@ -53,7 +53,7 @@
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/img/lia.webp");
+  background-image: url("./assets/img/lia.webp");
 }
 /* Conheça a Lia */
 #btn-lia{
@@ -89,7 +89,7 @@
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/img/donnuts.webp");
+  background-image: url("./assets/img/donnuts.webp");
 }
 #btn-contact{
   text-decoration: none;
@@ -153,28 +153,28 @@
   width: 11vw;
   height: 17vh;
   overflow: hidden;
-  background-image: url(../assets/img/01.jpg);
+  background-image: url(./assets/img/01.jpg);
   background-size: cover;
 }
 .image2{
   width: 11vw;
   height: 17vh;
   overflow: hidden;
-  background-image: url(../assets/img/02.jpg);
+  background-image: url(./assets/img/02.jpg);
   background-size: cover;
 }
 .image3{
   width: 11vw;
   height: 17vh;
   overflow: hidden;
-  background-image: url(../assets/img/03.jpg);
+  background-image: url(./assets/img/03.jpg);
   background-size: cover;
 }
 .image4{
   width: 11vw;
   height: 17vh;
   overflow: hidden;
-  background-image: url(../assets/img/10.jpg);
+  background-image: url(./assets/img/10.jpg);
   background-size: cover;
 }
 .image5{
@@ -195,14 +195,14 @@
   width: 11vw;
   height: 17vh;
   overflow: hidden;
-  background-image: url(../assets/img/11.jpg);
+  background-image: url(./assets/img/11.jpg);
   background-size: cover;
 }
 .image8{
   width: 11vw;
   height: 17vh;
   overflow: hidden;
-  background-image: url(../assets/img/08.jpg);
+  background-image: url(./assets/img/08.jpg);
   background-size: cover;
 }
 .txt-hover1, .txt-hover2, .txt-hover3, .txt-hover4,
