@@ -1,7 +1,7 @@
-import { goCakes, changeProductsCakes } from './modules/cakes.js';
-import { goCupCakes, changeProductsCupCakes } from './modules/cupcakes.js';
-import { goCandy, changeProductsCandy } from './modules/candy.js';
-import { goHome,changeProductsHome } from './modules/home.js';
+import { goCakes, changeProductsCakes } from './js-mod-14/modules/cakes.js';
+import { goCupCakes, changeProductsCupCakes } from './js-mod-14/modules/cupcakes.js';
+import { goCandy, changeProductsCandy } from './js-mod-14/modules/candy.js';
+import { goHome,changeProductsHome } from './js-mod-14/modules/home.js';
 
 // Navbar lateral
 let navLinks = document.querySelector(".nav-links");
@@ -25,19 +25,19 @@ window.addEventListener("load",() => {
   }
 
   switch (pathName) {
-    case '/':{
+    case '/js-mod-14/':{
       window.dispatchEvent(stateChangeHome);
       break;
     }
-    case '/cakes':{
+    case '/js-mod-14/cakes':{
       window.dispatchEvent(stateChangeCakes);
       break;
     }  
-    case '/cupcakes':{
+    case '/js-mod-14/cupcakes':{
       window.dispatchEvent(stateChangeCupCakes);
       break;
     }
-    case '/candy':{
+    case '/js-mod-14/candy':{
       window.dispatchEvent(stateChangeCandy);
       break;
     }
@@ -101,9 +101,9 @@ function push(event) {
   // document.title = id;
   // Finally push state change to the address bar
   if (id==='home'){
-    window.history.pushState({id}, `${id}`, `/`);
+    window.history.pushState({id}, `${id}`, `/js-mod-14/`);
   } else {
-    window.history.pushState({id}, `${id}`, `/${id}`);
+    window.history.pushState({id}, `${id}`, `/js-mod-14/${id}`);
   }
 
   // Dispatching event
