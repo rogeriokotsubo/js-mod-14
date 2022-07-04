@@ -7,6 +7,11 @@ export function changeProductsHome(){
   document.querySelector('.image6').style.backgroundImage = 'url(./assets/img/06.jpg)';
   document.querySelector('.image7').style.backgroundImage = 'url(./assets/img/11.jpg)';
   document.querySelector('.image8').style.backgroundImage = 'url(./assets/img/08.jpg)';
+
+  document.querySelector('.cakes-image1').style.backgroundImage = 'url(./assets/img/lia.webp)';
+  document.querySelector('.cakes-image2').style.backgroundImage = 'url(./assets/img/donnuts.webp)';
+  document.querySelector('.ctn-cake-bar').style.backgroundImage = 'url(./assets/img/fundo1.png)';
+
 }
 
 
